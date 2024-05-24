@@ -82,7 +82,7 @@
     "@moodlehq/cordova-plugin-inappbrowser": "5.0.0-moodle.3",
     "@moodlehq/cordova-plugin-intent": "2.2.0-moodle.2",
     "@moodlehq/cordova-plugin-ionic-webview": "5.0.0-moodle.2",
-    "@moodlehq/cordova-plugin-local-notification": "0.9.0-moodle.11",
+    "@moodlehq/cordova-plugin-local-notification": "^0.9.0-moodle.11",
     "@moodlehq/cordova-plugin-qrscanner": "3.0.1-moodle.5",
     "@moodlehq/cordova-plugin-zip": "3.1.0-moodle.1",
     "@moodlehq/ionic-native-push": "5.36.0-moodle.2",
@@ -94,9 +94,7 @@
     "@types/dom-mediacapture-record": "1.0.7",
     "chart.js": "^2.9.4",
     "cordova": "^11.0.0",
-    "cordova-android": "^11.0.0",
     "cordova-clipboard": "^1.3.0",
-    "cordova-ios": "^6.2.0",
     "cordova-plugin-add-swift-support": "^2.0.2",
     "cordova-plugin-advanced-http": "^3.3.1",
     "cordova-plugin-androidx-adapter": "^1.1.3",
@@ -161,6 +159,8 @@
     "check-es-compat": "^1.1.1",
     "compare-versions": "^4.1.4",
     "concurrently": "^8.2.0",
+    "cordova-android": "^11.0.0",
+    "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
     "cross-env": "^7.0.3",
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
@@ -195,10 +195,7 @@
     "node": ">=14.15.0 <15"
   },
   "cordova": {
-    "platforms": [
-      "android",
-      "ios"
-    ],
+    "platforms": [],
     "plugins": {
       "cordova-plugin-advanced-http": {
         "ANDROIDBLACKLISTSECURESOCKETPROTOCOLS": "SSLv3,TLSv1"
@@ -223,9 +220,7 @@
       "@moodlehq/cordova-plugin-inappbrowser": {},
       "cordova-plugin-ionic-keyboard": {},
       "@moodlehq/cordova-plugin-ionic-webview": {},
-      "@moodlehq/cordova-plugin-local-notification": {
-        "ANDROID_SUPPORT_V4_VERSION": "26.+"
-      },
+      "@moodlehq/cordova-plugin-local-notification": {},
       "cordova-plugin-media-capture": {},
       "cordova-plugin-network-information": {},
       "@moodlehq/cordova-plugin-qrscanner": {},
@@ -249,7 +244,8 @@
       "cordova-plugin-prevent-override": {},
       "cordova-plugin-androidx-adapter": {},
       "cordova-plugin-screen-orientation": {},
-      "cordova-plugin-moodleapp": {}
+      "cordova-plugin-moodleapp": {},
+      "cordova-plugin-local-notification": {}
     }
   },
   "optionalDependencies": {

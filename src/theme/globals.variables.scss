@@ -20,9 +20,9 @@ $blue:        #0f6cbf !default;
 $cyan:        #008196 !default; // Not used.
 $green:       #357a32 !default;
 $red:         #ca3120 !default;
-$yellow:      #f0ad4e !default;
+$yellow:      #fbbc04 !default;
 
-$brand-color: #ff7518 !default;
+$brand-color: #fbbc04 !default;
 
 $text-color:               $gray-900 !default;
 $text-color-rgb:           color-to-rgb-list($text-color) !default;
@@ -79,7 +79,7 @@ $screen-breakpoints: (
 ) !default;
 
 $core-course-image-background: #81ecec, #74b9ff, #a29bfe, #dfe6e9, #00b894, #0984e3, #b2bec3, #fdcb6e, #fd79a8, #6c5ce7 !default;
-$core-dd-question-colors: #FFFFFF, #B0C4DE, #DCDCDC, #D8BFD8, #87CEFA, #DAA520, #FFD700, #F0E68C !default;
+$core-dd-question-colors: #FFFFFF, #B0C4DE, #DCDCDC, #D8BFD8, #87CEFA, #fbbc04, #FFD700, #F0E68C !default;
 $core-text-hightlight-background-color: lighten($blue, 40%) !default;
 
 $core-fixed-url: false !default;

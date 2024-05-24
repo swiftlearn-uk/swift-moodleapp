@@ -44,7 +44,7 @@ import { CoreSettingsHelper } from '@features/settings/services/settings-helper'
 
 const PASSWORD_RESETS_CONFIG_KEY = 'password-resets';
 
-export const GET_STARTED_URL = 'https://moodle.com';
+export const GET_STARTED_URL = 'https://swift1.co.uk';
 
 /**
  * Helper provider that provides some common features regarding authentication.

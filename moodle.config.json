@@ -1,6 +1,6 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id": "swift.learn.access",
+    "appname": "Swift Access",
     "versioncode": 43000,
     "versionname": "4.3.0",
     "cache_update_frequency_usually": 420000,
@@ -67,6 +67,15 @@
         "zh-tw": "正體中文"
     },
     "wsservice": "moodle_mobile_app",
+    "siteurl": "https://swift1.co.uk",
+    "sites": [
+        {
+            "name": "Swift Access",
+            "alias": "Swift Access",
+            "url": "https://swift1.co.uk",
+            "staging": false
+        }
+    ],
     "demo_sites": {
         "student": {
             "url": "https://school.moodledemo.net",
@@ -86,13 +95,12 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https://moodle.net/moodle-app-privacy/",
+    "privacypolicy": "https://swiftlearn.co.uk/privacy-policy/",
     "notificoncolor": "#f98012",
     "enableanalytics": false,
     "enableonboarding": true,
