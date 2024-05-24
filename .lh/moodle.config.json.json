@@ -1,0 +1,42 @@
+{
+    "sourceFile": "moodle.config.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1693554160740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1693554185677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n     \"sitefindersettings\": {},\n     \"onlyallowlistedsites\": false,\n     \"skipssoconfirmation\": false,\n     \"forcedefaultlanguage\": false,\n-    \"privacypolicy\": \"swiftlearn.co.uk/privacy-policy\",\n+    \"privacypolicy\": \"https://swiftlearn.co.uk/privacy-policy/\",\n     \"notificoncolor\": \"#f98012\",\n     \"enableanalytics\": false,\n     \"enableonboarding\": true,\n     \"forceColorScheme\": \"\",\n"
+                },
+                {
+                    "date": 1693554226224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\n-    \"app_id\": \"com.moodle.moodlemobile\",\n+    \"app_id\": \"swift.learn.access\",\n     \"appname\": \"Moodle Mobile\",\n     \"versioncode\": 43000,\n     \"versionname\": \"4.3.0\",\n     \"cache_update_frequency_usually\": 420000,\n"
+                },
+                {
+                    "date": 1693554233994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n {\n     \"app_id\": \"swift.learn.access\",\n-    \"appname\": \"Moodle Mobile\",\n+    \"appname\": \"Swift Access\",\n     \"versioncode\": 43000,\n     \"versionname\": \"4.3.0\",\n     \"cache_update_frequency_usually\": 420000,\n     \"cache_update_frequency_often\": 1200000,\n"
+                },
+                {
+                    "date": 1693554271108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,8 +66,17 @@\n         \"zh-cn\": \"简体中文\",\n         \"zh-tw\": \"正體中文\"\n     },\n     \"wsservice\": \"moodle_mobile_app\",\n+    \"siteurl\": \"https://ilearn.sbs.edu\",\n+    \"sites\": [\n+        {\n+            \"name\": \"SBS iLearn\",\n+            \"alias\": \"SBS iLearn\",\n+            \"url\": \"https://ilearn.sbs.edu\",\n+            \"staging\": false\n+        }\n+    ],\n     \"demo_sites\": {\n         \"student\": {\n             \"url\": \"https://school.moodledemo.net\",\n             \"username\": \"student\",\n@@ -85,9 +94,8 @@\n         \"medium\": 110,\n         \"high\": 120\n     },\n     \"customurlscheme\": \"moodlemobile\",\n-    \"sites\": [],\n     \"multisitesdisplay\": \"\",\n     \"sitefindersettings\": {},\n     \"onlyallowlistedsites\": false,\n     \"skipssoconfirmation\": false,\n"
+                },
+                {
+                    "date": 1693554391846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,14 +66,14 @@\n         \"zh-cn\": \"简体中文\",\n         \"zh-tw\": \"正體中文\"\n     },\n     \"wsservice\": \"moodle_mobile_app\",\n-    \"siteurl\": \"https://ilearn.sbs.edu\",\n+    \"siteurl\": \"https://swiftlearn.co.uk\",\n     \"sites\": [\n         {\n-            \"name\": \"SBS iLearn\",\n-            \"alias\": \"SBS iLearn\",\n-            \"url\": \"https://ilearn.sbs.edu\",\n+            \"name\": \"Swift Access\",\n+            \"alias\": \"Swift Access\",\n+            \"url\": \"https://swiftlearn.co.uk\",\n             \"staging\": false\n         }\n     ],\n     \"demo_sites\": {\n"
+                },
+                {
+                    "date": 1693685267363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,14 +66,14 @@\n         \"zh-cn\": \"简体中文\",\n         \"zh-tw\": \"正體中文\"\n     },\n     \"wsservice\": \"moodle_mobile_app\",\n-    \"siteurl\": \"https://swiftlearn.co.uk\",\n+    \"siteurl\": \"https://swift1.co.uk\",\n     \"sites\": [\n         {\n             \"name\": \"Swift Access\",\n             \"alias\": \"Swift Access\",\n-            \"url\": \"https://swiftlearn.co.uk\",\n+            \"url\": \"https://swift1.co.uk\",\n             \"staging\": false\n         }\n     ],\n     \"demo_sites\": {\n"
+                }
+            ],
+            "date": 1693554160740,
+            "name": "Commit-0",
+            "content": "{\n    \"app_id\": \"com.moodle.moodlemobile\",\n    \"appname\": \"Moodle Mobile\",\n    \"versioncode\": 43000,\n    \"versionname\": \"4.3.0\",\n    \"cache_update_frequency_usually\": 420000,\n    \"cache_update_frequency_often\": 1200000,\n    \"cache_update_frequency_sometimes\": 3600000,\n    \"cache_update_frequency_rarely\": 43200000,\n    \"default_lang\": \"en\",\n    \"languages\": {\n        \"af\": \"Afrikaans\",\n        \"ar\": \"العربية\",\n        \"az\": \"Azərbaycanca\",\n        \"bg\": \"Български\",\n        \"ca\": \"Català\",\n        \"cs\": \"Čeština\",\n        \"da\": \"Dansk\",\n        \"de\": \"Deutsch\",\n        \"de-du\": \"Deutsch (du)\",\n        \"el\": \"Ελληνικά\",\n        \"en\": \"English\",\n        \"en-us\": \"English (United States)\",\n        \"es\": \"Español - Internacional\",\n        \"es-mx\": \"Español - México\",\n        \"eu\": \"Euskara\",\n        \"fa\": \"فارسی\",\n        \"fi\": \"Suomi\",\n        \"fr\": \"Français\",\n        \"gl\": \"Galego\",\n        \"he\": \"עברית\",\n        \"hi\": \"हिंदी\",\n        \"hr\": \"Hrvatski\",\n        \"hsb\": \"Hornjoserbsce\",\n        \"hu\": \"magyar\",\n        \"hy\": \"Հայերեն\",\n        \"id\": \"Bahasa Indonesia\",\n        \"it\": \"Italiano\",\n        \"ja\": \"日本語\",\n        \"km\": \"ខ្មែរ\",\n        \"kn\": \"ಕನ್ನಡ\",\n        \"ko\": \"한국어\",\n        \"lo\": \"ລາວ\",\n        \"lt\": \"Lietuvių\",\n        \"lv\": \"Latviešu\",\n        \"mn\": \"Монгол\",\n        \"mr\": \"मराठी\",\n        \"nl\": \"Nederlands\",\n        \"no\": \"Norsk\",\n        \"pl\": \"Polski\",\n        \"pt\": \"Português - Portugal\",\n        \"pt-br\": \"Português - Brasil\",\n        \"ro\": \"Română\",\n        \"ru\": \"Русский\",\n        \"sl\": \"Slovenščina\",\n        \"sq\": \"Shqip\",\n        \"sr-cr\": \"Српски\",\n        \"sr-lt\": \"Srpski\",\n        \"sv\": \"Svenska\",\n        \"szl\": \"Ślōnski\",\n        \"tg\": \"Тоҷикӣ\",\n        \"tr\": \"Türkçe\",\n        \"uk\": \"Українська\",\n        \"uz\": \"O'zbekcha\",\n        \"vi\": \"Vietnamese\",\n        \"zh-cn\": \"简体中文\",\n        \"zh-tw\": \"正體中文\"\n    },\n    \"wsservice\": \"moodle_mobile_app\",\n    \"demo_sites\": {\n        \"student\": {\n            \"url\": \"https://school.moodledemo.net\",\n            \"username\": \"student\",\n            \"password\": \"moodle\"\n        },\n        \"teacher\": {\n            \"url\": \"https://school.moodledemo.net\",\n            \"username\": \"teacher\",\n            \"password\": \"moodle\"\n        }\n    },\n    \"defaultZoomLevel\": \"none\",\n    \"zoomlevels\": {\n        \"none\": 100,\n        \"medium\": 110,\n        \"high\": 120\n    },\n    \"customurlscheme\": \"moodlemobile\",\n    \"sites\": [],\n    \"multisitesdisplay\": \"\",\n    \"sitefindersettings\": {},\n    \"onlyallowlistedsites\": false,\n    \"skipssoconfirmation\": false,\n    \"forcedefaultlanguage\": false,\n    \"privacypolicy\": \"swiftlearn.co.uk/privacy-policy\",\n    \"notificoncolor\": \"#f98012\",\n    \"enableanalytics\": false,\n    \"enableonboarding\": true,\n    \"forceColorScheme\": \"\",\n    \"forceLoginLogo\": false,\n    \"ioswebviewscheme\": \"moodleappfs\",\n    \"appstores\": {\n        \"android\": \"com.moodle.moodlemobile\",\n        \"ios\": \"id633359593\"\n    },\n    \"wsrequestqueuelimit\": 10,\n    \"wsrequestqueuedelay\": 100,\n    \"calendarreminderdefaultvalue\": 3600,\n    \"toastDurations\": {\n        \"short\": 2000,\n        \"long\": 3500,\n        \"sticky\": 0\n    },\n    \"disableTokenFile\": false\n}\n"
+        }
+    ]
+}

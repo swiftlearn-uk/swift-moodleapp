@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/core/features/user/pages/complete-profile/complete-profile.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1693559580445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1693559580445,
+            "name": "Commit-0",
+            "content": "<ion-header>\n    <ion-toolbar>\n        <ion-buttons slot=\"start\">\n            <ion-back-button [text]=\"'core.back' | translate\"></ion-back-button>\n        </ion-buttons>\n\n        <ion-title>\n            <h1 *ngIf=\"!editingProfile\">{{ 'core.user.completeyourprofile' | translate }}</h1>\n            <h1 *ngIf=\"editingProfile\">{{ 'core.login.reconnecttosite' | translate }}</h1>\n        </ion-title>\n\n        <ion-buttons slot=\"end\">\n            <ion-button fill=\"clear\" (click)=\"showHelp()\" [attr.aria-label]=\"'core.help' | translate\">\n                <ion-icon slot=\"icon-only\" name=\"far-circle-question\" aria-hidden=\"true\"></ion-icon>\n            </ion-button>\n        </ion-buttons>\n    </ion-toolbar>\n</ion-header>\n<ion-content>\n    <ion-list class=\"list-item-limited-width\">\n        <ng-container *ngIf=\"!editingProfile\">\n            <ion-item class=\"ion-text-wrap\">\n                <ion-label>\n                    <p>{{ 'core.user.completeprofilenotice' | translate }}</p>\n                </ion-label>\n            </ion-item>\n            <ion-button class=\"ion-text-wrap ion-margin\" expand=\"block\" (click)=\"openCompleteProfilePage()\">\n                {{ 'core.user.completeprofile' | translate }}\n            </ion-button>\n        </ng-container>\n        <ng-container *ngIf=\"editingProfile\">\n            <ion-item class=\"ion-text-wrap\">\n                <ion-label>\n                    <p>{{ 'core.user.completeprofilereconnectinstructions' | translate }}</p>\n                </ion-label>\n            </ion-item>\n            <ion-button class=\"ion-text-wrap ion-margin\" expand=\"block\" (click)=\"login()\">\n                {{ 'core.login.reconnect' | translate }}\n            </ion-button>\n        </ng-container>\n        <ion-item class=\"ion-text-wrap\">\n            <ion-label>\n                <p>{{ 'core.wanttochangesite' | translate }}</p>\n            </ion-label>\n        </ion-item>\n    </ion-list>\n</ion-content>\n"
+        }
+    ]
+}
